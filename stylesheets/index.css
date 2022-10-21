@@ -1,0 +1,524 @@
+body {
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Playfair Display', serif;;
+  height: 10611px;
+  width: 1440px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: white;
+}
+
+
+ /* шапка  */
+.shapka {
+  position: relative;
+  width: 1440px;
+ height: 217px;
+}
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  width: 1250px;
+  padding: 90px 0px 15px 0px;
+  border-bottom: 3px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+.author p {
+  color: black;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+}
+
+
+/* описание и вывеска */
+.title {
+  position: relative;
+  width: 1440px;
+  height: 1413px;
+}
+.title1 {
+  display: inline-block;
+  padding-top: 30px;
+  margin-left: 105px;
+}
+.about {
+  width: 590px;
+  margin-left: 97px;
+  padding-left: 20px;
+  border-left: 3px solid black;
+}
+.about p:nth-of-type(1) {
+  width: 476px;
+  height: 84px;
+  margin-top: 147px;
+
+  font-style: italic;
+  font-weight: 500;
+  font-size: 60px;
+}
+.about p:nth-of-type(2){
+  width: 547px;
+  height: 360px;
+
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.tramstop {
+  position: absolute;
+  right: 0px;
+  bottom: -67px;
+}
+.tramstop p {
+  position: absolute;
+  left: 188px;
+  top: 364px;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 137px;
+  text-align: center;
+  letter-spacing: 0.055em;
+}
+
+
+/* билет и начертания */
+.ticket {
+  position: relative;
+  width: 1440px;
+  height: 574px;
+}
+.ticket1 img{
+  position: absolute;
+  left: 91px;
+
+}
+.ticket1 p:nth-of-type(1) {
+  position: absolute;
+  left: 161px;
+
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 107px;
+}
+.ticket1 p:nth-of-type(2) {
+  position: absolute;
+  left: 236px;
+  top: 93px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+}
+.ticket1 p:nth-of-type(3) {
+  position: absolute;
+  left: 161px;
+  top: 113px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 85px;
+}
+.ticket1 p:nth-of-type(4) {
+  position: absolute;
+  left: 132px;
+  top: 178px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 53px;
+  border-bottom: 3px solid black;
+  padding: 0px 15px 0px 15px;
+}
+.ticket1 p:nth-of-type(5) {
+  position: absolute;
+  left: 148px;
+  top: 220px;
+  font-weight: 600;
+  font-size: 160px;
+  line-height: 213px;
+}
+.ticket1 p:nth-of-type(6) {
+  position: absolute;
+  left: 322px;
+  top: 225px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 96px;
+}
+.ticket1 p:nth-of-type(7) {
+  position: absolute;
+  left: 131px;
+  bottom:  59px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 85px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  padding: 7px 5px 7px 5px;
+}
+.box {
+  width: 851px;
+  height: 567px;
+  background-color: white;
+  margin-left: 490px;
+  border: 3px solid black;
+  border-radius: 20px;
+  z-index: 2;
+}
+.nach {
+  display: flex;
+}
+.nach p:nth-of-type(1){
+  padding-left: 34px;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 123px;
+}
+.nach p:nth-of-type(2){
+  padding: 48px 0 0 25px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 70px;
+}
+.styles {
+  margin: 44px 0 0 34px;
+}
+.styles div p{
+  font-size: 60px;
+  line-height: 60px;
+}
+.styles div p:nth-child(even) {
+  font-style: italic;
+  position:absolute;
+  left: 867px;
+}
+.s1, .s2, .s3, .s4, .s5, .s6 {
+  display: flex;
+}
+.s1 {
+  font-weight: 400;
+}
+.s2 {
+  font-weight: 500;
+}
+.s3 {
+  font-weight: 600;
+}
+.s4 {
+  font-weight: 700;
+}
+.s5 {
+  font-weight: 800;
+}
+.s6 {
+  font-weight: 900;
+}
+
+
+/* трамвай с языками */
+.lang {
+  position: relative;
+  width: 1440px;
+  height: 1636px;
+  display: flex;
+}
+.tram {
+  margin: 176px 0 0 127px;
+  z-index: 1;
+}
+.j img {
+  margin: -405px 0 0 -789px;
+  z-index: 0;
+}
+.languages {
+margin: 1342px 0 0 -748px;
+}
+.languages h1 {
+  font-weight: 800;
+  font-size: 140px;
+  line-height: 123px;
+  padding-left: 53px;
+}
+.languages p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 70px;
+}
+
+
+/* алфавит */
+.alph {
+  position: relative;
+  width: 1440px;
+  height: 1870px;
+  display: flex;
+}
+
+.x img {
+margin-top: -3px;
+}
+.x p {
+  margin: -570px 0 0 795px;
+  font-weight: 700;
+  font-size: 440px;
+  line-height: 587px;
+  display: block;
+}
+.a {
+  margin: 126px 0 0 -464px;
+  z-index: 1;
+}
+.a p:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 176px;
+  color: #FFFFFF;
+  padding-left: 40px;
+  padding-bottom: 19px;
+}
+.a p:nth-of-type(2) {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+.alphabet {
+  margin: 469px 0 0 -516px;
+}
+.alphabet p {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.08em;
+}
+
+.table {
+  position:relative;
+  width: 1440px;
+  height: 1098px;
+}
+.tram2 img {
+  display: block;
+  margin: 128px auto 0 auto;
+  z-index: 1;
+}
+.number {
+  margin: -437px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 440px;
+  height: 19px;
+  padding: 90px 0px 15px 0px;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 128px;
+  z-index: 2;
+  }
+.timetable {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+}
+.timetable h1 {
+  display: block;
+  font-weight: 700;
+  font-size: 170px;
+  line-height: 227px;
+  margin: -681px auto 0 auto;
+}
+.timetable h2 {
+  display: block;
+  margin: 40px auto 0 auto;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 90px;
+  text-align: center;
+}
+.timetable2 {
+  display: flex;
+  margin-top: 36px;
+  width: 1230px;
+  height: 480px;
+  border: 3px solid black;
+}
+.timetable2 div p {
+  padding: 12px 0 12px 12px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  border-bottom: 3px solid black;
+}
+.timetable2 div p:nth-of-type(6) {
+  border: none;
+}
+.tim1 {
+  width: 730px;
+  height: 480px;
+  border-right: 3px solid black;
+}
+.tim2 {
+  display: block;
+  width: 500px;
+  height: 480px;
+  text-align: center;
+}
+.features {
+  position: relative;
+  width: 1440px;
+  height: 1662px;
+}
+.features div p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+}
+.features1 img {
+  margin-top: -25px;
+}
+.features1 p:nth-of-type(1) {
+  margin: -264px 0 0 297px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 106px;
+}
+.features1 p:nth-of-type(2) {
+  margin: 14px 0 0 664px;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 106px;
+}
+.features1 p:nth-of-type(3) {
+  margin: -605px 0 0 770px;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 150px;
+}
+.w {
+  margin:382px 0 0 91px;
+}
+.w p {
+  margin-top: -64px;
+}
+.w h1 {
+  margin: -252px 0 0 752px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 240px;
+  line-height: 320px;
+  letter-spacing: 3px;
+}
+.t {
+  margin: -2px 0 0 565px;
+}
+.t p {
+  margin: -100px 0 0 390px;
+}
+.t h1 {
+  margin: -220px 0 0 -515px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 252px;
+  line-height: 320px;
+  letter-spacing: -8px;
+}
+.a2 {
+  margin:-40px 0 0 91px;
+}
+.a2 p {
+  margin-top: -237px;
+}
+.a2 h1 {
+  margin: -198px 0 0 762px;
+  font-weight: 600;
+  font-size: 315px;
+  line-height: 320px;
+  letter-spacing: -62px;
+}
+
+.characteristic {
+  position: relative;
+  margin-top: -130px;
+  width: 1440px;
+  height: 1403px;
+
+}
+.line {
+  width: 1245px;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+}
+.c1 {
+  margin-left: 91px;
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 420px;
+}
+.c2 {
+  margin-left: 91px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 120px;
+  line-height: 160px;
+}
+.no1 .c1 {
+  margin-top: -130px;
+}
+.no1 .c2 {
+  margin-top: -146px;
+}
+.u .c1 {
+  margin-top: -60px;
+}
+.no2 .c2 {
+margin-top: -62px;
+}
+.speed {
+  margin-top: -1132px;
+ float: right;
+}
+.nouno {
+margin: -1450px 0px 0px 373px;
+}
+.footer {
+  position: relative;
+  width: 1439px;
+  height: 670px;
+}
+.nam img {
+  display: block;
+  margin: 70px auto 0 auto;
+padding-bottom: 36px;
+}
+.rishahse {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  width: 1250px;
+  padding: 62px 0px 15px 0px;
+  border-top: 3px solid black;
+  margin-left: 100px;
+  margin-right: 100px;}
+.rishahse p {
+  color: black;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+}
