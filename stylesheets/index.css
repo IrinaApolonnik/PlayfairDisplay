@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
   background: white;
 }
+
+
  /* шапка  */
 .shapka {
   position: relative;
@@ -81,7 +83,6 @@ body {
   width: 476px;
   height: 84px;
   margin-top: 147px;
-
   font-style: italic;
   font-weight: 500;
   font-size: 60px;
@@ -89,13 +90,11 @@ body {
 .about p:nth-of-type(2){
   width: 547px;
   height: 360px;
-
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 30px;
   line-height: 41px;
 }
-
 .tramstop {
   position: absolute;
   right: 0px;
@@ -122,12 +121,10 @@ body {
 .ticket1 img{
   position: absolute;
   left: 91px;
-
 }
 .ticket1 p:nth-of-type(1) {
   position: absolute;
   left: 161px;
-
   font-weight: 400;
   font-size: 80px;
   line-height: 107px;
@@ -222,7 +219,6 @@ body {
   line-height: 60px;
 }
 .styles div p:nth-child(even) {
-
   font-style: italic;
   position:absolute;
   left: 367px;
@@ -258,7 +254,6 @@ body {
   display: flex;
 }
 .tram {
-
   margin: 176px 0 0 127px;
   z-index: 1;
 }
@@ -291,9 +286,8 @@ margin: 1342px 0 0 -748px;
   height: 1870px;
   display: flex;
 }
-
 .x img {
-margin-top: -3px;
+  margin-top: -3px;
 }
 .x p {
   margin: -570px 0 0 795px;
@@ -331,6 +325,8 @@ margin-top: -3px;
   letter-spacing: 0.08em;
 }
 
+
+/* расписание */
 .table {
   position:relative;
   width: 1440px;
@@ -408,6 +404,9 @@ margin-top: -3px;
   height: 480px;
   text-align: center;
 }
+
+
+/* особенности шрифта */
 .features {
   position: relative;
   width: 1440px;
@@ -482,12 +481,13 @@ margin-top: -3px;
   letter-spacing: -62px;
 }
 
+
+/* характеристики */
 .characteristic {
   position: relative;
   margin-top: -130px;
   width: 1440px;
   height: 1403px;
-
 }
 .line {
   width: 1245px;
@@ -527,6 +527,9 @@ margin-top: -62px;
 .nouno {
 margin: -1450px 0px 0px 373px;
 }
+
+
+/* подвал */
 .footer {
   position: relative;
   width: 1439px;
@@ -538,7 +541,6 @@ margin: -1450px 0px 0px 373px;
 padding-bottom: 36px;
 }
 .rishahse {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
